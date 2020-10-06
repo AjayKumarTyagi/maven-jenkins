@@ -18,6 +18,14 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+  <distributionManagement>
+<snapshotRepository>
+<id>cicd-lab</id>
+<name>cicd-lab</name>
+<url>http://localhost:8081/repository/cicd-lab/</url>
+</snapshotRepository>
+</distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
