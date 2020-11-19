@@ -10,9 +10,11 @@ pipeline{
           steps{
           shell('mvn clean')
           }
+      }
           stage('deploy'){
           steps{
           shell('mvn deploy')
+          }
           }
       }
     }
